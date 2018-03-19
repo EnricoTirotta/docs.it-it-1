@@ -31,11 +31,11 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 12/23/2017
 ---
 # <a name="naming-guidelines"></a>Convenzioni di denominazione
-Segue un set di convenzioni di denominazione per lo sviluppo di un framework coerente possibile contribuito a livello di usabilità del framework. Consente al framework di utilizzabile da molti sviluppatori su progetti separati ampiamente. Oltre la coerenza del modulo, nomi degli elementi di framework devono essere facilmente comprensibili e devono indicare la funzione di ogni elemento.  
+Segue un set di convenzioni di denominazione per lo sviluppo di un framework che può essere il maggiore contribuito per l'usabilità del framework. Consente al framework di essere utilizzato da molti sviluppatori su progetti ampiamente separati. Oltre la coerenza del modulo, i nomi degli elementi del framework devono essere facilmente comprensibili e devono indicare la funzione di ogni elemento.  
   
- L'obiettivo di questo capitolo è fornire un set di convenzioni di denominazione coerente che risolve in nomi che ha senso immediato per gli sviluppatori.  
+ L'obiettivo di questo capitolo è fornire un set di convenzioni di denominazione coerente che si traduca in nomi con un senso immediato per gli sviluppatori.  
   
- Sebbene adottare le convenzioni di denominazione come linee guida sullo sviluppo di codice generale comporta la denominazione più coerente in tutto il codice, è necessario solo per applicarli alle API che vengono esposte pubblicamente (pubblici o protetti di tipi e membri, e in modo esplicito le interfacce implementate).  
+ Sebbene adottare le convenzioni di denominazione come linee guida generali sullo sviluppo risulterebbe in una denominazione più coerente per tutto il tuo codice, è necessario applicarle solo alle API che vengono esposte pubblicamente (tipi e membri public o protected, e interfacce implementate esplicitamente).  
   
 ## <a name="in-this-section"></a>In questa sezione  
  [Convenzioni per l'uso di maiuscole e minuscole](../../../docs/standard/design-guidelines/capitalization-conventions.md)  
