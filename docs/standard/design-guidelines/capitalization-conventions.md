@@ -29,31 +29,31 @@ ms.contentlocale: it-IT
 ms.lasthandoff: 12/23/2017
 ---
 # <a name="capitalization-conventions"></a>Convenzioni per l'utilizzo di maiuscole e minuscole
-Le linee guida fornite in questo capitolo disporre un metodo semplice per l'utilizzo di case che, quando applicato in modo coerente, verificare gli identificatori per i tipi, membri e parametri di facile lettura.  
+Le linee guida fornite in questo capitolo impostano un metodo semplice per l'utilizzo di maiuscolo e minuscono che, quando applicato in modo coerente, rende di facile lettura gli identificatori per i tipi, membri, e parametri.  
   
 ## <a name="capitalization-rules-for-identifiers"></a>Regole per gli identificatori  
- Per differenziare le parole in un identificatore, converte in maiuscolo la prima lettera di ogni parola nell'identificatore. Non utilizzare caratteri di sottolineatura per differenziare le parole o a tale scopo, in qualsiasi punto negli identificatori. Esistono due modi appropriati in maiuscolo gli identificatori, a seconda dell'utilizzo dell'identificatore:  
+ Per differenziare le parole in un identificatore, convertire in maiuscolo la prima lettera di ogni parola nell'identificatore. Non utilizzare caratteri di sottolineatura per differenziare le parole o a tale scopo, in qualsiasi punto negli identificatori. Esistono due modi appropriati in maiuscolo gli identificatori, a seconda dell'utilizzo dell'identificatore:  
   
--   Sistema Pascal  
+-   Pascal
   
--   Camel  
+-   camel
   
- La convenzione il sistema Pascal, utilizzata per tutti gli identificatori, ad eccezione di nomi di parametro, converte in maiuscolo il primo carattere di ogni parola (inclusi gli acronimi su due lettere), come illustrato negli esempi seguenti:  
+ La convenzione PascalCasing, utilizzata per tutti gli identificatori, ad eccezione dei nomi di parametro, converte in maiuscolo il primo carattere di ogni parola (inclusi gli acronimi su due lettere), come illustrato negli esempi seguenti:  
   
  `PropertyDescriptor`  
  `HtmlTag`  
   
- Un caso speciale viene effettuato per due lettere acronimi in cui sia le lettere sono in maiuscolo, come illustrato nella seguente identificatore:  
+ Un caso speciale viene effettuato per gli acronimi con due lettere in cui entrambe le lettere sono in maiuscolo, come illustrato nel seguente identificatore:  
   
  `IOStream`  
   
- La convenzione camel, utilizzata solo per i nomi di parametro, converte in maiuscolo il primo carattere di ogni parola eccetto la prima parola, come illustrato negli esempi seguenti. Come nell'esempio viene inoltre, gli acronimi di due lettere che iniziano un identificatore di maiuscole/minuscole camel sono entrambi lettere minuscole.  
+ La convenzione camelCasing, utilizzata solo per i nomi di parametro, converte in maiuscolo il primo carattere di ogni parola eccetto la prima parola, come illustrato negli esempi seguenti. Come viene inoltre mostrato nell'esempio, gli acronimi di due lettere che iniziano un identificatore con convenzione camel sono entrambe minuscole.  
   
  `propertyDescriptor`  
  `ioStream`  
  `htmlTag`  
   
- **✓ SI** utilizzare il sistema Pascal per tutti i membri, tipo e spazio dei nomi nomi pubblici composta da più parole.  
+ **✓ SI** utilizzare la convenzione Pascal per tutti i membri, tipo e spazio dei nomi pubblici composta da più parole.  
   
  **✓ SI** utilizzare camel per i nomi di parametro.  
   
@@ -76,7 +76,7 @@ Le linee guida fornite in questo capitolo disporre un metodo semplice per l'util
   
  **X non** tutte iniziali maiuscole nella cosiddette parole composte di forma chiusa.  
   
- Queste sono le parole composte scritte come una parola singola, ad esempio endpoint. Allo scopo di linee guida di maiuscole e minuscole, considerare una chiuso parola composta come una singola parola. Utilizzare un dizionario corrente per determinare se una parola composta è scritto in forma chiusa.  
+ Queste sono le parole composte scritte come una parola singola, ad esempio endpoint. Allo scopo di linee guida di maiuscole e minuscole, considerare una parola composta di forma chiusa come una singola parola. Utilizzare il dizionario corrente per determinare se una parola composta è scritta in forma chiusa.  
   
 |Convenzione Pascal|Convenzione camel|non|  
 |------------|-----------|---------|  
@@ -107,9 +107,9 @@ Le linee guida fornite in questo capitolo disporre un metodo semplice per l'util
 |`Writable`|`writable`|`Writeable`|  
   
 ## <a name="case-sensitivity"></a>Distinzione fra maiuscole e minuscole  
- Linguaggi che è possono eseguire in Common Language Runtime non è richiesta per supportare distinzione maiuscole/minuscole, anche se alcuni. Anche se supporta la lingua, altri linguaggi che potrebbero accedere il framework non. Le API che sono accessibili dall'esterno, pertanto, possono basarsi su case da solo per distinguere tra i due nomi nello stesso contesto.  
+ Ai linguaggi che possono essere eseguiti sul CLR Common Language Runtime non è richiesto di supportare la distinzione maiuscole/minuscole, anche se alcuni lo fanno. Anche se il linguaggio lo supporta, altri linguaggi che potrebbero accedere il framework, potrebbero non supportarlo. Le API che sono accessibili dall'esterno, pertanto, non possono basarsi solo su maiuscole e minuscole per distinguere tra due nomi nello stesso contesto.  
   
- **X non** si presume che tutti i linguaggi di programmazione tra maiuscole e minuscole. Ma non lo sono. I nomi non possono differire dalle maiuscole o minuscole da solo.  
+ **X non** presupporre che tutti i linguaggi di programmazione facciano distizione tra maiuscole e minuscole. Non lo fanno. I nomi non possono differire solo in maiuscole e minuscole.  
   
  *Parti © 2005, 2009 Microsoft Corporation. Tutti i diritti riservati.*  
   
